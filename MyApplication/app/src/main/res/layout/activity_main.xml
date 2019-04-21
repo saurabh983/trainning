@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/onetxt"
+        android:textSize="28dp"
+
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+         />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edttxt"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="1"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edttxttwo"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="1"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textColor="#fff"
+        android:background="#5035E7"
+        android:id="@+id/submitbtn"
+        android:layout_gravity="center"
+         />
+
+</LinearLayout>
